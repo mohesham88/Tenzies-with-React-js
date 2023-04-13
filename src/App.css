@@ -1,0 +1,48 @@
+.App{
+  height: 90dvh;
+  background-color: brown;
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+  color: #fff;
+}
+
+img{
+  max-width: 100%;
+  width: calc(100% / 5 - 15px);
+}
+
+.container{
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100%;
+  /* gap: 30px; */
+  padding: 0 1rem;
+}
+
+.dices{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.dice{
+  cursor: pointer;
+}
+
+
+.generate-btn{
+  background-color: #0B2434;
+  color: #fff;
+  outline: none;
+  padding: 15px 40px;
+  cursor: pointer;
+  border-radius: 15px;
+  text-transform: uppercase;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
