@@ -1,11 +1,11 @@
 # Tenzies-with-React-js
-# Objective:
+## Objective of the game:
 Make all ten dices show the same number.
-# Technologies
+## Technologies
 ```
   React + javascript
 ```
-# Set up 
+## Set up 
 install npm
 ```
   npm install
